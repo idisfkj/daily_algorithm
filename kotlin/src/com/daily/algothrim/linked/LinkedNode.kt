@@ -1,9 +1,14 @@
 package com.daily.algothrim.linked
 
-class LinkedNode<T>(val value: T, var next: LinkedNode<T>?) {
+class LinkedNode<T>(var value: T, var next: LinkedNode<T>? = null) {
 
     fun printAll() {
-        // todo print all linked value.
+        println("$value")
+        var temp = next
+        while (temp != null) {
+            println(temp.value)
+            temp = temp.next
+        }
     }
 
 }
