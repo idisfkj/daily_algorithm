@@ -43,8 +43,8 @@ class OrderMerge {
 
         var first = firstLinked // 结果集
         var second = secondLinked // 非结果集
-        var prev: LinkedNode<Int>? = null // 结果集当前比较位置的前一结点
-        var result = firstLinked // 结果集头结点
+        val result: LinkedNode<Int>? = LinkedNode(-1).apply { next = firstLinked } // 结果集头结点
+        var prev = result // 结果集当前比较位置的前一结点
 
         while (first != null && second != null) {
             // 1. 结果集小于等于非结果集，继续向后移动比较
@@ -55,15 +55,8 @@ class OrderMerge {
                 continue
             }
 
-            // 2. 结果集大于非结果集，插入到结果集中
-            if (prev != null) {
-                // 插入的位置不是头结点
-                prev.next = second
-            } else {
-                // 插入的位置是头结点
-                result = second
-            }
             // 插入
+            prev?.next = second
             val temp = second.next
             second.next = first
             prev = second
@@ -77,6 +70,6 @@ class OrderMerge {
             second = second.next
         }
 
-        return result
+        return result?.next
     }
 }
