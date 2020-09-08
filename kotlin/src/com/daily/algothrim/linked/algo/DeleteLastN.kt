@@ -38,7 +38,7 @@ class DeleteLastN {
         val result: LinkedNode<String>? = LinkedNode("#").apply { next = singleLinked }
         var prev = result
         var fast = singleLinked
-        var low = singleLinked
+        var slow = singleLinked
         var lastPosition = n
 
         // 快指针先走n步
@@ -54,12 +54,12 @@ class DeleteLastN {
         // 快慢指针一起走
         while (fast?.next != null) {
             fast = fast.next
-            prev = low
-            low = low?.next
+            prev = slow
+            slow = slow?.next
         }
 
         // 删除链表倒数第n个结点
-        prev?.next = low?.next
+        prev?.next = slow?.next
 
         return result?.next
     }

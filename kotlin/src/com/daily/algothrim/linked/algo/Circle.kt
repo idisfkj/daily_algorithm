@@ -31,13 +31,13 @@ class Circle {
      */
     fun existCircle(linkedList: LinkedNode<Int>?): Boolean {
 
-        var low = linkedList
+        var slow = linkedList
         var fast = linkedList
 
         while (fast?.next != null) {
-            low = low?.next
+            slow = slow?.next
             fast = fast.next?.next
-            if (fast == low) return true
+            if (fast == slow) return true
         }
 
         return false

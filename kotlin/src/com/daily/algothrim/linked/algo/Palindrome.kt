@@ -43,21 +43,21 @@ class Palindrome {
             return singleLinked.value == singleLinked.next?.value
         }
 
-        var low = singleLinked
+        var slow = singleLinked
         var fast = singleLinked.next?.next
         var preFast = singleLinked.next
         var reversalLinked: LinkedNode<String>? = null
 
         // size > 2
-        // 2 -> 3 -> 2              critical point => low = 3; fast = null; preFast = null
-        // 2 -> 3 -> 3 -> 2         critical point => low = 3; fast = null; preFast = 2
-        // 2 -> 3 -> 4 -> 3 -> 2    critical point => low = 4; fast = null; preFast = null
+        // 2 -> 3 -> 2              critical point => slow = 3; fast = null; preFast = null
+        // 2 -> 3 -> 3 -> 2         critical point => slow = 3; fast = null; preFast = 2
+        // 2 -> 3 -> 4 -> 3 -> 2    critical point => slow = 4; fast = null; preFast = null
         // and so on
         while (fast != null) {
-            val temp = low
+            val temp = slow
 
             // 向后移动
-            low = low?.next
+            slow = slow?.next
             preFast = fast.next
             fast = fast.next?.next
 
@@ -68,21 +68,21 @@ class Palindrome {
 
         if (preFast != null) {
             // size为偶数
-            val temp = low
-            low = low?.next
+            val temp = slow
+            slow = slow?.next
             temp?.next = reversalLinked
             reversalLinked = temp
         } else {
             // size为奇数
-            low = low?.next
+            slow = slow?.next
         }
 
-        // low继续向后移动，同时与reversalLinked做值比较
-        while (low != null) {
-            if (reversalLinked?.value != low.value) {
+        // slow继续向后移动，同时与reversalLinked做值比较
+        while (slow != null) {
+            if (reversalLinked?.value != slow.value) {
                 return false
             }
-            low = low.next
+            slow = slow.next
             reversalLinked = reversalLinked.next
         }
 
