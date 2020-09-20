@@ -3,6 +3,8 @@ package com.daily.algothrim.sort
 
 /**
  * 归并排序
+ * 稳定排序
+ * 不是原地排序
  */
 class MergeSort {
     companion object {
@@ -16,6 +18,10 @@ class MergeSort {
         }
     }
 
+    /**
+     * 时间复杂度: O(nlog n)
+     * 空间复杂度: O(n)
+     */
     private fun sort(a: IntArray, start: Int, end: Int) {
         if (start < end) {
             val mid = (start + end) / 2
