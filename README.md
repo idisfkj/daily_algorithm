@@ -35,3 +35,4 @@
 
 ## 排序
 1. [MergeSort](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/sort/MergeSort.kt): 归并排序
+2. [QuickSort](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/sort/QuickSort.kt): 快速排序
