@@ -2,6 +2,8 @@ package com.daily.algothrim.sort
 
 /**
  * 计数排序
+ * 稳定排序
+ * 非原地排序
  */
 class CountSort {
     companion object {
