@@ -36,3 +36,14 @@
 ## 排序
 1. [MergeSort](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/sort/MergeSort.kt): 归并排序
 2. [QuickSort](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/sort/QuickSort.kt): 快速排序
+3. [CountSort](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/sort/CountSort.kt): 计数排序
+4. [BubbleSort](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/sort/BubbleSort.kt): 冒泡排序
+5. [InsertSort](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/sort/InsertSort.kt): 插入排序
+6. [SelectSort](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/sort/SelectSort.kt): 选择排序
+
+## 查找
+1. [BinarySearch](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/lookup/BinarySearch.kt): 二分查找
+2. [BinarySearchV1](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/lookup/BinarySearchV1.kt): 二分查找第一个等于给定的值
+3. [BinarySearchV2](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/lookup/BinarySearchV2.kt): 二分查找最后一个等于给定的值
+4. [BinarySearchV3](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/lookup/BinarySearchV3.kt): 二分查找第一个大于等于给定的值
+5. [BinarySearchV4](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/lookup/BinarySearchV4.kt): 二分查找最后一个小于等于给定的值
