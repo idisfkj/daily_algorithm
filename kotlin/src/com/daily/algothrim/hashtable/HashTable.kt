@@ -4,7 +4,7 @@ package com.daily.algothrim.hashtable
  * 散列表
  * O(1)
  */
-class HashTable<K, V> {
+class HashTable<K, V>(capacity: Int = DEFAULT_CAPACITY) {
 
     companion object {
 
@@ -38,7 +38,7 @@ class HashTable<K, V> {
 
     private var mSize = 0 // 元素大小
     private var mUsed = 0 // 已经使用了的散列表大小
-    private var mTable = Array<Entry<K, V>?>(DEFAULT_CAPACITY) {
+    private var mTable = Array<Entry<K, V>?>(capacity) {
         null
     }
 
