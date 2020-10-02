@@ -9,7 +9,7 @@
 
 ## 链表
 
-1. [LUR](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/linked/algo/LUR.kt): 使用单链表实现LUR
+1. [LRU](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/linked/algo/LRU.kt): 使用单链表实现LRU
 2. [Palindrome](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/linked/algo/Palindrome.kt): 单链表判断回文
 3. [Reversal](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/linked/algo/Reversal.kt): 单链表反转
 4. [Circle](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/linked/algo/Circle.kt): 链表中环的检测
@@ -47,3 +47,8 @@
 3. [BinarySearchV2](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/lookup/BinarySearchV2.kt): 二分查找最后一个等于给定的值
 4. [BinarySearchV3](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/lookup/BinarySearchV3.kt): 二分查找第一个大于等于给定的值
 5. [BinarySearchV4](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/lookup/BinarySearchV4.kt): 二分查找最后一个小于等于给定的值
+6. [SkipList](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/lookup/SkipList.kt): 跳表
+
+## 散列表
+1. [HashTable](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/hashtable/HashTable.kt): 散列表
+2. [LRU](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/hashtable/LRU.kt): 基于散列表与双向链表的LRU
