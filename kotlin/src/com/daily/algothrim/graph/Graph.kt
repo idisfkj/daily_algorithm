@@ -30,7 +30,7 @@ class Graph(private val v: Int) {
 
 
     private val adj: Array<LinkedList<Int>> = Array(v) {
-        LinkedList()
+        LinkedList<Int>()
     }
 
     fun addEdge(s: Int, t: Int) {
