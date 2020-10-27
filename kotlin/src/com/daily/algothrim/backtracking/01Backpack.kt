@@ -31,7 +31,7 @@ class `01Backpack` {
             return
         }
         backtracking(i + 1, item, n, w, cw) // 不装
-        if (cw + item[i] < w) { // 装
+        if (cw + item[i] <= w) { // 装
             backtracking(i + 1, item, n, w, cw + item[i])
         }
     }
