@@ -40,6 +40,7 @@
 4. [BubbleSort](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/sort/BubbleSort.kt): 冒泡排序
 5. [InsertSort](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/sort/InsertSort.kt): 插入排序
 6. [SelectSort](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/sort/SelectSort.kt): 选择排序
+7. [HeapSort](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/sort/HeapSort.kt): 堆排序
 
 ## 查找
 1. [BinarySearch](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/lookup/BinarySearch.kt): 二分查找
@@ -52,3 +53,27 @@
 ## 散列表
 1. [HashTable](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/hashtable/HashTable.kt): 散列表
 2. [LRU](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/hashtable/LRU.kt): 基于散列表与双向链表的LRU
+
+## 树
+1. [BinarySearchTree](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/tree/BinarySearchTree.kt): 二叉查找树
+2. [MaxDepth](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/tree/MaxDepth.kt): 二叉树的最大深度
+3. [MinimumDifference](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/MinimumDifference.kt): 二叉树的最小绝对差
+
+## 图
+1. [Graph](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/graph/Graph.kt): 图的广度与深度优先搜索
+
+## Trie
+1. [Trie](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/trie/Trie.kt): trie树，解决字符串查询
+2. [ACAutoMata](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/trie/ACAutoMata.kt): AC自动机, 字符串多模式匹配
+
+## LeetCode
+1. [TowSum](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/TowSum.kt): 两数之和(1)
+2. [AddTwoNumbers](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/AddTwoNumbers.kt): 两数相加(2)
+3. [MaxDepth](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/tree/MaxDepth.kt): 二叉树的最大深度(104)
+4. [HasCycle](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/HasCycle.kt): 环形链表(141)
+5. [MinimumDifference](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/MinimumDifference.kt): 二叉树的最小绝对差(530)
+6. [Connect](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/Connect.kt): 填充每个节点的下一个右侧节点指针(116)
+7. [LengthOfLongestSubstring](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/LengthOfLongestSubstring.kt): 无重复字符串的最长子串(3)
+8. [ReorderList](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/ReorderList.kt): 重排链表(143)
+9. [RemoveKDigits](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/RemoveKDigits.kt): 移掉k位数字(402)
+10. [NQueens](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/NQueens.kt): N皇后(51)
