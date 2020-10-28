@@ -1,4 +1,4 @@
-package com.daily.algothrim.dynamic
+package com.daily.algothrim.dp
 
 /**
  * 01-背包
