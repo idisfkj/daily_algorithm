@@ -8,15 +8,15 @@ class `01Backpack` {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            println(`01Backpack`().backtracking(5, 9, intArrayOf(2, 2, 4, 6, 3)))
-            println(`01Backpack`().backtracking2(5, 9, intArrayOf(2, 2, 4, 6, 3)))
+            println(`01Backpack`().dp(5, 9, intArrayOf(2, 2, 4, 6, 3)))
+            println(`01Backpack`().dp2(5, 9, intArrayOf(2, 2, 4, 6, 3)))
         }
     }
 
     /**
      * O(n * w)
      */
-    fun backtracking(n: Int, w: Int, weight: IntArray): Int {
+    fun dp(n: Int, w: Int, weight: IntArray): Int {
 
         val status = Array(n) { BooleanArray(w + 1) }
 
@@ -52,7 +52,7 @@ class `01Backpack` {
         return 0
     }
 
-    fun backtracking2(n: Int, w: Int, weight: IntArray): Int {
+    fun dp2(n: Int, w: Int, weight: IntArray): Int {
         val status = BooleanArray(w + 1)
         status[0] = true
         if (weight[0] <= w) status[weight[0]] = true
