@@ -61,10 +61,26 @@
 
 ## 图
 1. [Graph](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/graph/Graph.kt): 图的广度与深度优先搜索
+2. [TopologySort](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/graph/TopologySort.kt): 拓扑排序
+3. [BitMap](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/bitmap/BitMap.kt): 位图
 
 ## Trie
 1. [Trie](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/trie/Trie.kt): trie树，解决字符串查询
 2. [ACAutoMata](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/trie/ACAutoMata.kt): AC自动机, 字符串多模式匹配
+
+## 回溯
+1. [01Backpack](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/backtracking/01Backpack.kt): 01-背包
+2. [01BackpackUpgrade](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/backtracking/01BackpackUpgrade.kt): 01-背包升级版
+3. [MinDist](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/backtracking/MinDist.kt): 棋盘最小路径
+4. [MinEdit](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/backtracking/MinEdit.kt): 最少编辑次数
+
+## 动态规划
+1. [01Backpack](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/dp/01Backpack.kt): 01-背包
+2. [01BackpackUpgrade](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/dp/01BackpackUpgrade.kt): 01-背包升级版
+3. [MinDist](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/dp/MinDist.kt): 棋盘最小路径
+4. [MinEdit](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/dp/MinEdit.kt): 最少编辑次数
+5. [MaxSameLength](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/dp/MaxSameLength.kt): 最多公共子串长度
+6. [YangHuiTriangleVer](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/dp/YangHuiTriangleVer.kt): 杨辉三角变体
 
 ## LeetCode
 1. [TowSum](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/TowSum.kt): 两数之和(1)
