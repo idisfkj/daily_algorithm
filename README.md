@@ -7,6 +7,9 @@
 
 不积跬步，无以至千里；不积小流，无以成江海。👋🤔
 
+## 进阶文章(持续更新中...)
+[算法之旅:复杂度分析](https://mp.weixin.qq.com/s?__biz=MzIzNTc5NDY4Nw==&mid=2247484828&idx=1&sn=85266c375f71f24631de329b8712c772&chksm=e8e0fc0cdf97751a664300dcfb4edb14eb51f5f65875e6cb9a01263eef255679efd37429607f&token=2000464357&lang=zh_CN#rd)
+
 ## 链表
 
 1. [LRU](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/linked/algo/LRU.kt): 使用单链表实现LRU
@@ -93,3 +96,6 @@
 8. [ReorderList](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/ReorderList.kt): 重排链表(143)
 9. [RemoveKDigits](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/RemoveKDigits.kt): 移掉k位数字(402)
 10. [NQueens](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/NQueens.kt): N皇后(51)
+
+## 公众号
+![](https://mmbiz.qpic.cn/mmbiz_jpg/rmIMUv3sRicAB10FW8cIK6LI6504kAxf9bcQxZmdHkCicuplw8lPTO7GEJxg6zlTicIAh9ia4xlYswejPWnTX6eNKQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
