@@ -96,6 +96,15 @@
 8. [ReorderList](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/ReorderList.kt): 重排链表(143)
 9. [RemoveKDigits](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/RemoveKDigits.kt): 移掉k位数字(402)
 10. [NQueens](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/NQueens.kt): N皇后(51)
+11. [SortArrayByParityII](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/SortArrayByParityII.kt): 按奇偶排序数组 II(922)
+12. [OddEvenList](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/OddEvenList.kt): 奇偶链表(328)
+13. [RelativeSortArray](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/RelativeSortArray.kt): 数组的相对排序(1122)
+14. [AllCellsDistOrder](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/AllCellsDistOrder.kt): 距离顺序排列矩阵单元格(1030)
+15. [CanCompleteCircuit](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/CanCompleteCircuit.kt): 加油站(132)
+16. [MoveZeroes](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/MoveZeroes.kt): 移动零(283)
+17. [InsertionSortList](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/InsertionSortList.kt): 对链表进行插入排序(147)
+18. [CountNodes](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/CountNodes.kt): 完全二叉树的节点个数(222)
+19. [LeastInterval](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/LeastInterval.kt): 任务调度器(621)
 
 ## 公众号
 ![](https://mmbiz.qpic.cn/mmbiz_jpg/rmIMUv3sRicAB10FW8cIK6LI6504kAxf9bcQxZmdHkCicuplw8lPTO7GEJxg6zlTicIAh9ia4xlYswejPWnTX6eNKQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
