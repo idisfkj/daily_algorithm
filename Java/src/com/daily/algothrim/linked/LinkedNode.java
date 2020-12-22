@@ -1,8 +1,8 @@
 package com.daily.algothrim.linked;
 
 public class LinkedNode<T> {
-    private T value;
-    private LinkedNode<T> next;
+    public T value;
+    public LinkedNode<T> next;
 
     public LinkedNode(T value, LinkedNode<T> next) {
         this.value = value;
