@@ -10,6 +10,8 @@
 ## 进阶文章(持续更新中...)
 [算法之旅:复杂度分析](https://mp.weixin.qq.com/s?__biz=MzIzNTc5NDY4Nw==&mid=2247484828&idx=1&sn=85266c375f71f24631de329b8712c772&chksm=e8e0fc0cdf97751a664300dcfb4edb14eb51f5f65875e6cb9a01263eef255679efd37429607f&token=2000464357&lang=zh_CN#rd)
 
+[数组：面试中的疑难点](https://mp.weixin.qq.com/s?__biz=MzIzNTc5NDY4Nw==&mid=2247485006&idx=1&sn=63a7b03b9fed8824b01c1a00faae1ca1&chksm=e8e0ffdedf9776c8a219154c05474060042f8bac44f355ea0333d5dbbf0d07f24aa1130f08f5&scene=178&cur_album_id=1630127620509990912#rd)
+
 ## 链表
 
 1. [LRU](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/linked/algo/LRU.kt): 使用单链表实现LRU
@@ -105,6 +107,14 @@
 17. [InsertionSortList](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/InsertionSortList.kt): 对链表进行插入排序(147)
 18. [CountNodes](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/CountNodes.kt): 完全二叉树的节点个数(222)
 19. [LeastInterval](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/LeastInterval.kt): 任务调度器(621)
+20. [PredictPartyVictory](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/PredictPartyVictory.kt): Dota2 参议院(649)
+21. [WiggleMaxLength](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/WiggleMaxLength.kt): 摆动序列(376)
+22. [ContainsDuplicate](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/ContainsDuplicate.kt): 存在重复的元素(217)
+23. [WordPattern](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/WordPattern.kt): 单词规律(290)
+24. [FindTheDifference](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/FindTheDifference.kt): 找不同的数(389)
+25. [CanPlaceFlowers](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/CanPlaceFlowers.kt): 种花问题(605)
+26. [Partition](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/Partition.kt): 分隔链表(86)
+27. [SummaryRanges](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/SummaryRanges.kt): 汇总区间(228)
 
 ## 公众号
 ![](https://mmbiz.qpic.cn/mmbiz_jpg/rmIMUv3sRicAB10FW8cIK6LI6504kAxf9bcQxZmdHkCicuplw8lPTO7GEJxg6zlTicIAh9ia4xlYswejPWnTX6eNKQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
