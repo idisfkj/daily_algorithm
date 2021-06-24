@@ -33,14 +33,11 @@ class CanPlaceFlowers {
         val size = flowerbed.size
         var num = 0
         while (i < size) {
-            if (flowerbed[i] == 0) {
-                if (i == size - 1 || flowerbed[i + 1] == 0) {
-                    if (++num == n) return true
-                } else {
-                    i++
-                }
+            if (flowerbed[i] == 0 && (i == size - 1 || flowerbed[i + 1] == 0) && (i == 0 || flowerbed[i - 1] == 0)) {
+                flowerbed[i] = 1
+                num++
             }
-            i += 2
+            i++
         }
 
         return num >= n
