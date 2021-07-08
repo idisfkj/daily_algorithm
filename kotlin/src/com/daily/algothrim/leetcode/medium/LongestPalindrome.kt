@@ -1,4 +1,4 @@
-package com.daily.algothrim.leetcode.hard
+package com.daily.algothrim.leetcode.medium
 
 /**
  * 5. 最长回文子串
