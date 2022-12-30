@@ -15,7 +15,9 @@
 [链表：由浅入深](https://mp.weixin.qq.com/s?__biz=MzIzNTc5NDY4Nw==&mid=2247485181&idx=1&sn=cc3ed7d1556ebfcfdc74c04f3bbc8077&chksm=e8e0ff6ddf97767b42c4d25ced8e2a915147cdc0951ddfb98837540a0c75c8e78c7eddd12168&cur_album_id=1630127620509990912&scene=189#rd)
 
 ## 视频学习
-![](./images/rouse.jpeg)
+<div align=center>
+<img src=./images/rouse.jpeg width=358 height=480/>
+</div>
 ## 链表
 
 1. [LRU](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/linked/algo/LRU.kt): 使用单链表实现LRU
