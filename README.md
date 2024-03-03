@@ -27,6 +27,7 @@
 5. [跳跃游戏](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/CanJump.kt)
 6. [跳跃游戏II](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/Jump.kt)
 7. [H 指数](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/HIndex.kt)
+8. [O(1) 时间插入、删除和获取随机元素](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/RandomizedSet.kt)
 ## 链表
 
 1. [LRU](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/linked/algo/LRU.kt): 使用单链表实现LRU
