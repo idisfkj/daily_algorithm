@@ -73,6 +73,7 @@
 51. [逆波兰表达式求值](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/EvalRPN.kt)
 52. [基本计算器](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/Calculate.kt)
 53. [环形链表](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/HasCycle.kt)
+54. [两数相加](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/AddTwoNumbers.kt)
 ## 链表
 
 1. [LRU](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/linked/algo/LRU.kt): 使用单链表实现LRU
