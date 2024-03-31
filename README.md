@@ -77,6 +77,7 @@
 55. [合并两个有序链表](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/MergeTwoLists.kt)
 56. [随机链表的复制](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/CopyRandomList.kt)
 57. [反转链表II](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/ReverseBetween.kt)
+58. [K个一组翻转链表](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/ReverseKGroup.kt)
 ## 链表
 
 1. [LRU](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/linked/algo/LRU.kt): 使用单链表实现LRU
