@@ -69,7 +69,7 @@
 47. [用最少数量的箭引爆气球](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/FindMinArrowShots.kt)
 48. [有效的括号](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/IsValid.kt)
 49. [简化路径](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/SimplifyPath.kt)
-50. [最小栈](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/SimplifyPath.kt)
+50. [最小栈](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/MinStack.kt)
 51. [逆波兰表达式求值](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/EvalRPN.kt)
 52. [基本计算器](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/Calculate.kt)
 53. [环形链表](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/HasCycle.kt)
@@ -108,6 +108,7 @@
 86. [二叉树的右视图](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/RightSideView.kt)
 87. [二叉树的层平均值](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/AverageOfLevels.kt)
 88. [二叉搜索树的最小绝对差](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/GetMinimumDifference.kt)
+89. [二叉搜索树中第K小的元素](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/KthSmallest.kt)
 ## 链表
 
 1. [LRU](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/linked/algo/LRU.kt): 使用单链表实现LRU
