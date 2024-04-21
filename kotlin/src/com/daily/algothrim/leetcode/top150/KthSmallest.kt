@@ -55,6 +55,10 @@ class KthSmallest {
         return result
     }
 
+    /**
+     * O(h+k)
+     * O(n)
+     */
     private fun inorderTraversals(root: TreeNode?) {
         if (root == null) return
         inorderTraversals(root.left)
