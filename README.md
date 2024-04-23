@@ -111,6 +111,7 @@
 89. [二叉搜索树中第K小的元素](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/KthSmallest.kt)
 90. [验证二叉搜索树](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/IsValidBST.kt)
 91. [被围绕的区域](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/Solve.kt)
+92. [字符串的排列](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/leetcode/top150/CheckInclusion.kt)
 ## 链表
 
 1. [LRU](https://github.com/idisfkj/daily_algorithm/blob/master/kotlin/src/com/daily/algothrim/linked/algo/LRU.kt): 使用单链表实现LRU
