@@ -1,5 +1,8 @@
 package com.daily.algothrim.leetcode.medium
 
+import java.util.*
+import kotlin.collections.ArrayList
+
 /**
  * 46. 全排列
  * 给定一个不含重复数字的数组 nums ，返回其 所有可能的全排列 。你可以 按任意顺序 返回答案。
@@ -32,37 +35,30 @@ class Permute {
 
     // nums = [1,2,3]
     // [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+    private val result = ArrayList<List<Int>>()
+    private val temp = arrayListOf<Int>()
+    private var size = 0
     fun permute(nums: IntArray): List<List<Int>> {
-        val result = arrayListOf<List<Int>>()
-        backtracking(nums, 0, arrayListOf(), result)
+        size = nums.size
+        if (size == 0) return result
+        for (i in 0 until size) {
+            temp.add(nums[i])
+        }
+        backtrack(nums, 0)
         return result
     }
 
-    private fun backtracking(nums: IntArray, currentIndex: Int, subResult: ArrayList<Int>, resultList: ArrayList<List<Int>>) {
-        if (subResult.size == nums.size) {
-            resultList.add(ArrayList(subResult))
+    private fun backtrack(nums: IntArray, index: Int) {
+        if (index == size) {
+            result.add(ArrayList(temp))
             return
         }
-
-        subResult.add(nums[currentIndex])
-        backtracking(nums, currentIndex + 1, subResult, resultList)
-        subResult.removeAt(subResult.size - 1)
-        var right = currentIndex + 1
-        while (right < nums.size) {
-            val temp = nums[right]
-            nums[right] = nums[currentIndex]
-            nums[currentIndex] = temp
-
-            subResult.add(nums[currentIndex])
-            backtracking(nums, currentIndex + 1, subResult, resultList)
-            subResult.removeAt(subResult.size - 1)
-
-            val tempReversal = nums[right]
-            nums[right] = nums[currentIndex]
-            nums[currentIndex] = tempReversal
-
-            right++
+        for (i in index until size) {
+            Collections.swap(temp, i, index)
+            backtrack(nums, index + 1)
+            Collections.swap(temp, i, index)
         }
 
     }
+
 }
