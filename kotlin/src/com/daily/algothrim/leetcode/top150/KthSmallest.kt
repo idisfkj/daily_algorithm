@@ -44,6 +44,12 @@ class KthSmallest {
                 }
                 right = TreeNode(4)
             }, 1))
+            println(MyBest(TreeNode(3).apply {
+                left = TreeNode(1).apply {
+                    right = TreeNode(2)
+                }
+                right = TreeNode(4)
+            }).kthSmallest(1))
         }
     }
 
@@ -67,5 +73,36 @@ class KthSmallest {
             return
         }
         inorderTraversals(root.right)
+    }
+
+    class MyBest(private val root: TreeNode?) {
+        private val map = hashMapOf<TreeNode, Int>()
+
+        init {
+            fill(root)
+        }
+
+        fun kthSmallest(k: Int): Int {
+            if (root == null) return 0
+            var temp = root
+            while (temp != null) {
+                val curr = map.getOrDefault(temp.left, 0)
+                temp = if (curr < k - 1) {
+                    root.right
+                } else if (curr == k - 1) {
+                    break
+                } else {
+                    root.left
+                }
+            }
+            return temp?.`val` ?: 0
+        }
+
+        private fun fill(root: TreeNode?): Int {
+            if (root == null) return 0
+            val curr = fill(root.left) + fill(root.right) + 1
+            map[root] = curr
+            return curr
+        }
     }
 }
